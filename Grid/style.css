@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    padding: 30px;
+    justify-content: center;
+    display: grid;
+    justify-content: center;
+    gap: 0.3rem;
+    grid-template-columns: 200px 200px 200px; 
+    grid-template-rows: 100px 150px 150px 150px 100px 150px 150px 150px;
+}
+.header,.image1,.image2,.image3,.image4,.image5,.image6,.image7,.image8,.image9,.image10,.image11{
+    border: none;
+}
+.header{
+    grid-column: span 3;
+    background-color: rgb(212,209,209);
+}
+
+.header h2,p{ 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+p{
+    color: rgb(12, 12, 11);
+    font-size: 15px;
+}
+.image1{
+    grid-row: span 2;
+    grid-column: span 1;
+    background-image: url("./image1.jpg"); 
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.image2{
+    grid-row: span 2;
+    grid-column: span 2;
+    background-image: url("./image2.jpg"); 
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.image3{
+    grid-row: span 1;
+    grid-column: span 1;
+    background-image: url("./image3.jpg"); 
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.image4{
+    grid-row: span 1;
+    grid-column: span 1;
+    background-image: url("./image4.jpg"); 
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.image5{
+    grid-row: span 1;
+    grid-column: span 1;
+    background-image: url("./image5.jpg"); 
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.null{
+    grid-column: span 3;
+}
+.image6{
+    grid-row: span 1;
+    grid-column: span 2;
+    background-image: url("./image4.jpg"); 
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.image7{
+    grid-row: span 1;
+    grid-column: span 1;
+    background-image: url("./image1.jpg"); 
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.image8{
+    grid-row: span 2;
+    grid-column: span 1;
+    background-image: url("./image2.jpg"); 
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.image9{
+    grid-row: span 1;
+    grid-column: span 1;
+    background-image: url("./image6.jpg"); 
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.image10{
+    grid-row: span 1;
+    grid-column: span 1;
+    background-image: url("./image7.jpg"); 
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.image11{
+    grid-row: span 1;
+    grid-column: span 2;
+    background-image: url("./image5.jpg"); 
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+}

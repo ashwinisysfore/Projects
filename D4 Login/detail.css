@@ -1,13 +1,11 @@
 *{
     margin:0px;
 }
-
 .body{
     background-color: #f8f8f9;
     width:100%;
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
-
 .logo-header{
     display: flex;
     width:100%;
@@ -17,7 +15,6 @@
     justify-content: center;
     background-color: #2e3192;
 }
-
 .logo{
     height: 45px;
     width: 150px;
@@ -38,14 +35,21 @@
    
 }
 .side-header{
+    display: flex;
     margin-left:auto;
     padding:10px;
     color: white
 }
+.icon{
+    width: 15px;
+    height: auto;
+    padding-right: 15px;
+    margin-top: 8px;
+}
 .user-name{
     font-weight: bold;
 }
-.greetings{
+.user-name>p{
     font-size: 12px;
 }
 a{
@@ -90,37 +94,20 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
+  height: 30px;
   color: #9b9696;
   font-size: 1rem;
   background: white;
 }
-/*table{
-    border-collapse: none;
-    width: 100%;
-}
-th, td{
-    border: none;
-}*/
-.field{
-    background-color: #9b9696;
+.label1{
+    
     width: 60%;
 }
 table{
-    border-collapse: collapse;
-    width: 100%;
+    width:100%;
 }
-th, td{
-    border: none;
-    padding: 8px;
-    text-align: left;
-}
-tr{
-    border-bottom: 1px solid lightgrey;
-}
-.labe1, hr{
-    
-    width: 60%;
+tr,td{
+    border-bottom: 1px solid black;
 }
 
 

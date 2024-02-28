@@ -19,63 +19,46 @@
     height: 30px;
     align-items: center;
     padding-bottom: 25px;
-} 
+}
 .login-card{
-    height: 55%;
-    width:28%;
+    border: 1px solid #ccc;
+    padding: 25px;
+    width: 350px;
+    height:auto;
     background-color: white;
-    margin: 0px;
 }
-.login-card h2{
+.login-card-header p{
     padding: 0px;
-    margin:20px;
-    font-size:30px;
-}
-.login-heading{
-    margin:0px;
-    padding:0px;
-
-}
-.login-heading p{
-    margin:20px;
-    padding:0px;
-    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
 }
 
-.login-form{
-    padding: 0px;
-    margin:20px;
-    
-}/*
-.form-label{
-    display: block;
-   font-weight: bold;
-   font-size: large;
-    width: 20px;
-   padding: 10px;
-   margin:0px;
-   padding-left: 0px;
+.data-entry{
+    display:flex;
+    width:100%;
+    flex-direction: column;
+    gap: 20px;
 }
-.input-form{
+
+label{
+    font-weight: bold;
+}
+input{
     padding: 10px;
-    margin: 0px;
-    width: 50vh;
-}*/
+    height: 15px;
+}
 
 .btn{
-    text-align: center;
-    padding: 10px;
-    margin: 40px;
-    background-color: green;
-    width: 53vh;
-    margin-left: -0px;
+    display: flex;
+    padding: 20px 0px 20px 0px;
     border-style: none;
+    height: 20px;
+    background-color: #3cb44c;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
-
-
 .btn:hover{
-    background-color:aqua;
+    background-color: rgb(205, 109, 50);
     cursor: pointer;
 }
-
-

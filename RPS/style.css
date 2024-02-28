@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.game-container{
+    width: 400px;
+    height: auto;
+    text-align: center;
+    border-radius: 0.6rem;
+    background-color: #201658;
+    color: white;
+    padding-bottom: 10px;
+}
+button{
+    cursor: pointer;
+}
+.choice-btn,.reset-btn{
+    color: black;
+    border: none;
+    padding: 0.4rem 1rem;
+    border-radius: 0.3rem;
+}
+.rock-img::after,
+.paper-img::after,
+.scissor-img::after,
+.reset-btn::after {
+    content: "";
+    background-image:url(./rock.png) ;
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-size: cover;
+}
+.paper-img::after{
+    background-image: url(./paper.png);
+}
+.scissor-img::after{
+    background-image: url(./scissor.png);
+}
+.reset-btn::after{
+    background-image: url(./reset.png);
+}

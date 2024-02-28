@@ -37,14 +37,21 @@
    
 }
 .side-header{
+    display: flex;
     margin-left:auto;
     padding:10px;
     color: white;
 }
+.icon{
+    width: 15px;
+    height: auto;
+    padding-right: 15px;
+    margin-top: 8px;
+}
 .user-name{
     font-weight: bold;
 }
-.greetings{
+.user-name>p{
     font-size: 12px;
 }
 a{
@@ -85,14 +92,6 @@ a:hover{
     gap: 12px;
     text-transform: uppercase;
 }
-/*.form-label{
-    display:flex;
-    padding: 10px;
-    align-items: flex-start; 
-}
-.input-form{
-    border: 1px solid black;
-}*/
 select {
     padding: 10px;
     font-size: 16px;
@@ -108,6 +107,7 @@ select {
     margin: 50px;
     background-color: rgb(161, 157, 156);
     width:10%;
+    color: white;
     border-style: none;
     border: 1px solid black;
    
@@ -120,6 +120,7 @@ select {
     background-color: rgb(221, 67, 11);
     width:10%;
     border-style: none;
+    color: white;
     border: 1px solid black;
    
 }
@@ -127,34 +128,20 @@ select {
     padding:10px;
     width:160px;
 }
-/*.ico{
-    display: flex;
-    display: inline-flex;
-}
-.iconn{
-    width: 50px;
-    height:50px;
-    border-radius: 50%;
-    margin-right:200px;
-} */
 
 .label9 textarea{
-   
+
     width: 400%;
     height: 100px;
 }
 footer{
-    display: flex;
+    padding:10px;
+    text-align: center;
     justify-content: center;
-    align-items: center;
-    height: 50px;
+    height: 30px;
     color: #9b9696;
     font-size: 1rem;
     background: white;
 }
-/*.sub{
-    display: flex;
-    width:100%;
-    justify-content: flex-end;
-}
+
   

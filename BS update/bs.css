@@ -1,0 +1,24 @@
+ul{
+    list-style: none;
+}
+.background{
+    background-image: url(Banner.jpg);
+    height: 500px;
+    background-position: cover;
+    background-size: cover;
+}
+.picture{
+    height:200px;
+    width:100%;
+}
+/* .container{
+    padding-bottom: 20px;
+} */
+.f{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.logoo{
+    height: auto;
+    width: 70px;
+}

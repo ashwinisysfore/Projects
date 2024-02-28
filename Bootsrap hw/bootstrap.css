@@ -1,0 +1,49 @@
+.navbar{
+    padding-right: 120px;
+    padding-left: 120px;
+}
+.card-img-overlay{
+    padding-left: 120px;
+    padding-top: 120px;
+}
+.btn{
+    border-radius: 50px;
+}
+.content{
+    padding-left: 120px;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+.content-logo{
+    gap:10px;
+   
+}
+.images{
+    padding-left: 120px;
+    padding-top: 90px;
+    padding-bottom: 120px;
+}
+.images-1{
+    gap:15px;
+}
+.card-img-top1{
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+}
+.card-img-top2{
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+}
+.card-img-top3{
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+}
+.card-img-top4{
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+}
+

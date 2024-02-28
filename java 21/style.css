@@ -1,0 +1,18 @@
+.container{
+    height: 600px;
+    width: 65%;
+    /*border: 5px solid teal;*/
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 80px  1fr 80px ;
+    grid-template-rows: 30px 30px 400px 30px; /*height of the individual element*/
+}
+.header,.sidebar,.nav,.ads,.main,.footer{
+    border: 1px solid red;
+}
+.header,.footer{
+    grid-column: span 3;  /* 3 column*/
+}
+.sidebar,.ads{
+    grid-row: span 2; /* 2 row will be taken*/
+}

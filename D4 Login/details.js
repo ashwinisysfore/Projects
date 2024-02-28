@@ -1,12 +1,21 @@
-const queryString=window.location.search;
-const urlParams= new URLSearchParams(queryString);
+window.addEventListener('load',()=>{
+    const firstname=sessionStorage.getItem('FirstName');
+    const middlename=sessionStorage.getItem('MiddleName');
+    const lastename=sessionStorage.getItem('LastName');
+    const  dob=sessionStorage.getItem('Date of Birth');
+    const email=sessionStorage.getItem('Email');
+    const phone=sessionStorage.getItem('Phone');
+    const gender=sessionStorage.getItem('Gender');
+    const bloodgroup=sessionStorage.getItem('BloodGroup');
+    const comments=sessionStorage.getItem('Comments');
 
-document.getElementById('First Name').textContent=urlParams.get('First Name');
-document.getElementById('Last Name').textContent=urlParams.get('Last Name');
-document.getElementById('Middle Name').textContent=urlParams.get('Middle Name');
-document.getElementById('DOB').textContent=urlParams.get('DOB');
-document.getElementById('Email').textContent=urlParams.get('Email');
-document.getElementById('Phone No').textContent=urlParams.get('Phone No');
-document.getElementById('Gender').textContent=urlParams.get('Gender');
-document.getElementById('Blood Group').textContent=urlParams.get('Blood Group');
-document.getElementById('Comments').textContent=urlParams.get('Comments');
+    document.getElementById('fname').innerHTML=firstname;
+    document.getElementById('mname').innerHTML=middlename;
+    document.getElementById('lname').innerHTML=lastename;
+    document.getElementById('dob').innerHTML=dob;
+    document.getElementById('mail').innerHTML=email;
+    document.getElementById('phone').innerHTML=phone;
+    document.getElementById('gen').innerHTML=gender;
+    document.getElementById('blood').innerHTML=bloodgroup;
+    document.getElementById('comm').innerHTML=comments ;
+});
